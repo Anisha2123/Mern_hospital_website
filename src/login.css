@@ -1,0 +1,50 @@
+
+.login{
+    background-color: #be185d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login,.signup{
+    height:100vh;
+}
+.login .btn{
+    border:none;
+    color:white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* background-color: #be185d; */
+    transition: all ease 0.3s;
+    background-color: #be185d;
+    cursor: pointer;
+}
+.login .btn:hover{
+    transform: scale(1.2);
+}
+.mb-2{
+    text-align: left;
+    /* border: 1px solid red; */
+}
+.form-container{
+    width: 30%;
+    background-color: white;
+}
+.fi{
+    text-align: center;
+    /* border:1px solid red; */
+}
+button{
+    background-color: #be185d;
+}
+
+@media screen and (max-width:1000px)
+{
+    .form-container{
+        width:45%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .form-container{
+        width:65%;
+    }
+}

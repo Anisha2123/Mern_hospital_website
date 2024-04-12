@@ -1,0 +1,27 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home{
+    height:100vh;
+    width:100%;
+}
+nav{
+    padding: 0.4rem;
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .left{
+    border:1px solid red;
+}
+.navbar{
+    color: aliceblue;
+    background-color: black;
+    border:1px solid red;
+}
+.tt{
+    color: aliceblue;
+}
